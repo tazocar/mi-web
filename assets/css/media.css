@@ -1,0 +1,45 @@
+@media (min-width: 500px) and (max-width: 895px){
+	.banner-img{
+		background-size: auto 500px;
+	}
+  header{
+    padding: 0.5em;
+  } 
+}
+@media (min-width:1px) and (max-width: 499px){
+	.banner-img{
+		background-size: auto 500px;
+	}
+	nav ul{
+		display: none;
+	}
+  .fa.fa-bars{
+    display: inline-block;
+  }
+	header{
+		padding: 0.5em;
+	}
+  .banner-img h1{
+    font-size: 4em;
+  }
+  .banner-img h2{
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 1px) and (max-width: 730px){
+  [class*="col-"]{
+    width: 100%;
+  }
+  .contact{
+    text-align: center;
+  }
+  .img-pardo{
+    background-size: cover;
+  }
+  .img-chloe{
+    background-size: cover;
+  }
+  .img-polar{
+    background-size: auto;
+  }
+}

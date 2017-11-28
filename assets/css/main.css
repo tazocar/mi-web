@@ -1,0 +1,141 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+  color:#181818;
+}
+header{
+	padding: 0.5em 5em;
+	background-color: #343A40;
+	color: #FFF;
+	position: fixed;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.nav-title{
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bolder;
+	letter-spacing: 1px;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px;
+}
+nav ul li a{
+	color: #b6b6b6;
+	cursor: pointer;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #FFF;
+}
+.active-link{
+	color: #FFF;
+}
+.fa.fa-bars{
+  float: right;
+  font-size:1.6em;
+  display: none;
+}
+.banner-img{
+	height: 500px;
+	background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/panda-banner.jpg) no-repeat;
+	background-size: 100%;
+	background-position: 50% 5%;
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	padding-top: 11em;
+  margin-bottom: 1.2em;
+}
+.banner-img h1{
+	font-weight: 400;
+	font-size: 5em;
+	text-shadow: 2px 2px 10px black;
+}
+.banner-img h2{
+	font-weight: 300;
+	font-size: 3em;
+	text-shadow: 0 0 10px black;
+}
+h3{
+	display: inline-block;
+	font-size: 1.6em;
+	padding-bottom: 0.5em;
+}
+.contact{
+  padding:1em 2em;
+  color:#181818;
+}
+.contact p{
+  line-height: 2em;
+}
+.contact h4{
+  font-size: 1.2em;
+  line-height: 2.2em;
+}
+.img-pardo{
+	width: 100%;
+	height: 200px;
+	background: url(../img/grizzly.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.img-chloe{
+  width: 100%;
+  height: 200px;
+  background: url(../img/chloe.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.img-polar{
+  width: 100%;
+  height: 200px;
+  background: url(../img/polar.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.text-container{
+	border:1px solid #333333;
+  box-sizing: border-box;
+  padding: 2em;
+  height: 305px;
+  overflow: hidden;
+}
+.btn-container{
+  border-bottom: 1px solid #333333;
+  border-right: 1px solid #333333;
+  border-left: 1px solid #333333;
+  height: 4em;
+  background-color: #f0f3f4;
+}
+button{
+  background-color: #009cc9;
+  border:none;
+  outline: none;
+  padding: 1em;
+  color: #FFF;
+  font-weight: bolder;
+  margin:11px 0 0 11px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #007698;
+}
+footer{
+	text-align: center;
+	color: #FFF;
+	background-color: #343A40;
+	height: 100px;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.add-padding{
+  padding: 0 2em;
+}
